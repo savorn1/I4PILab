@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Buy T-Shirt Form</title>
+</head>
+<body>
+	<form action="#" method="post">
+		<div style="width: 80%; margin-left: auto; margin-right: auto;"">
+			<h2>Buy a T-Shirt</h2>
+			<hr>
+			<table style="width: 100%">
+			<tr>
+				<td colspan="2">
+					<label>Which one do you want? <span style="color: red">*</span></label>				
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<select name="tShirtType" style="width: 100%">
+						<option value="1">Polo T-Shirt</option>
+						<option value="2">Henley T-Shirt</option>
+						<option value="3">V-neck T-Shirt</option>
+						<option value="4">Striped T-Shirt</option>
+						<option value="5">Graphic T-Shirt</option>
+					</select>
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<label>Size <span style="color: red">*</span></label>
+				</td>
+				<td style="width: 50%"><label>Color </label><span style="color:red">*</span></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<select name="tShirtSize" style="width: 100%">
+						<option value="1">XS</option>
+						<option value="2">S</option>
+						<option value="3">M</option>
+						<option value="4">L</option>
+						<option value="5">XL</option>
+						<option value="6">XXL</option>
+					</select>
+				</td>
+				<td>
+					<select name="tShirtColor" style="width: 100%">
+						<option value="1">White</option>
+						<option value="2">Red</option>
+						<option value="3">Green</option>
+						<option value="4">Yellow</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3">
+					<hr>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<label>Name </label><span style="color:red">*</span>
+				</td>
+				<td>
+					<label>Email </label><span style="color:red">*</span>
+				</td>
+			</tr>
+			<tr>
+				<td style="width: 25%">
+					<input type="text" name="fName" placeholder="First" style="width: 150px">
+					<br/>
+					<small>First</small>
+				</td>
+				<td>
+					<input type="text" name="lName" placeholder="Last" style="width: 150px">
+					<br/>
+					<small>Last</small>
+				</td>
+				<td valign="top">
+					<input type="email" name="email" placeholder="Email" style="width:365px">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3">
+					<label>Address</label><br/>
+					<input type="text" name="address" style="width:746px">
+					<br />
+					<small>Street Address</small>
+					<br />
+					<input type="text" name="address2" style="width:746px">
+					<br/>
+					<small>Address Line 2</small>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type="text" name="city" style="width: 357px">
+					<br/>
+					<small>City</small>
+				</td>
+				<td>
+					<input type="text" name="state" style="width: 357px">
+					<br/>
+					<small>State / Province / Region</small>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type="text" name="postal" style="width: 357px">
+					<br/>
+					<small>Postal / Zip Code</small>
+				</td>
+				<td>
+					<select name="country" style="width: 357px">
+						<option value="1">Cambodia</option>
+						<option value="2">Thai</option>
+						<option value="3">Laos</option>
+						<option value="4">Vietnam</option>
+					</select>
+					<br/>
+					<small>Country</small>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3">
+					<input type="checkbox" name="isGift"> This is gift.
+					<br/>
+					<br/>
+					<button type="submit">Submit</button>
+				</td>
+			</tr>
+		</table>
+		<div>
+	</form>
+</body>
+</html>
